@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>URich Development</title>
+
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta property="og:image" content="img/favicon/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+</head>
+
+<body>
+<div class="mobile">
+    <a href="main.html" class="mobile-logo__link"><img src="img/logo.svg" alt="logo" class="mobile-logo__image"></a>
+    <span class="mobile-burger burger">
+        <span class="span burger-white"></span>
+        <!--<span class="span burger-white"></span>-->
+        <span class="span burger-white"></span>
+    </span>
+    <ul class="mobile-menu">
+        <li class="mobile-menu__item"><a href="about.html" class="mobile-menu__link">About</a></li>
+        <li class="mobile-menu__item"><a href="cases.html" class="mobile-menu__link">Cases</a></li>
+        <li class="mobile-menu__item"><a href="services.html" class="mobile-menu__link">Services</a></li>
+        <li class="mobile-menu__item"><a href="blog.html" class="mobile-menu__link">Blog</a></li>
+        <li class="mobile-menu__item"><a href="contacts.html" class="mobile-menu__link">Contacts</a></li>
+    </ul>
+</div>
+<nav class="navbar navbar_top navbar_white">
+    <div class="navbar__logo logo">
+        <a href="main.html"><img src="img/logo-black.svg" alt="logo" class="logo__image"></a>
+    </div>
+    <div class="navbar__menu">
+        <ul class="main-menu">
+            <li class="main-menu__item"><a href="about.html" class="main-menu__link">About</a></li>
+            <li class="main-menu__item"><a href="cases.html" class="main-menu__link">Cases</a></li>
+            <li class="main-menu__item"><a href="services.html" class="main-menu__link">Services</a></li>
+            <li class="main-menu__item"><a href="blog.html" class="main-menu__link">Blog</a></li>
+            <li class="main-menu__item"><a href="contacts.html" class="main-menu__link">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<section class="about case">
+    <div class="about-us cases">
+        <div class="about-us__title cases__title">
+            <h2 class="about-us__title_text cases__title_text">About us</h2>
+        </div>
+    </div>
+    <div class="team">
+        <div class="team__description">
+            <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+            </p>
+        </div>
+        <div class="team__clients">From our clients</div>
+        <div class="team__vector-map">
+            <div class="half">
+                <div class="counter-widget">
+                    <div class="counter counter1">0</div>
+                    <div class="counter counter2">0</div>
+                    <div class="counter counter3">0</div>
+                </div>
+            </div>
+            <div class="half">
+                <div id="vmap"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="services team-services">
+    <div class="services-block team-services-block">
+        <div class="posts">
+            <div class="posts__item">
+                <img src="img/post.jpg" alt="a team of a top developers" class="posts__image">
+                <figure class="posts__figure">
+                    <div class="posts__name">a team of a top developers</div>
+                    <div class="posts__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam at consectetur excepturi, iusto laboriosam qui sit totam unde! Fuga, inventore laudantium. Architecto eaque facere fugit laborum molestias, tempora vero.
+                    </div>
+                </figure>
+            </div>
+            <div class="posts__item">
+                <img src="img/post2.jpg" alt="Many Years of Experience" class="posts__image">
+                <figure class="posts__figure">
+                    <div class="posts__name">Many Years of Experience</div>
+                    <div class="posts__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid cum ea esse eum, excepturi iste omnis quibusdam recusandae similique tempore? Animi aperiam ducimus eius expedita, illum laudantium magni ullam unde!
+                    </div>
+                </figure>
+            </div>
+            <div class="posts__item">
+                <img src="img/post3.jpg" alt="Strong Company Culture" class="posts__image">
+                <figure class="posts__figure">
+                    <div class="posts__name">Strong Company Culture</div>
+                    <div class="posts__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fugit laboriosam nulla perferendis quas quidem repudiandae? Ad architecto aspernatur enim, et, expedita fuga illum iure maxime nisi rem repudiandae sunt?
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="start">
+    <div class="start-block">
+        <div class="start__title">Start your project with us!</div>
+        <a href="#" class="form__button start__button">
+            Get free estimation
+        </a>
+    </div>
+</section>
+<div class="team team-wrapper">
+    <div class="team__clients team__clients-our">Our team</div>
+    <div class="team-block">
+        <div class="team__image">
+            <img src="img/team/01.png" alt="Founder & CEO" class="image">
+        </div>
+        <div class="team__status">
+            <span class="name">Sergii Anufriiev</span>
+            <span class="status">Founder & CEO</span>
+            <span class="social">
+            <a href="#" class="social__link"><img src="img/linkedin-black.svg" alt="linkedin"></a>
+            <a href="#" class="social__link"><img src="img/mail-black.svg" alt="mail"></a>
+        </span>
+        </div>
+    </div>
+    <div class="team-block">
+        <div class="team__image">
+            <img src="img/team/02.png" alt="Founder & CEO" class="image">
+        </div>
+        <div class="team__status">
+            <span class="name">Ruslan Vershinin</span>
+            <span class="status">CTO</span>
+            <span class="social">
+            <a href="#" class="social__link"><img src="img/linkedin-black.svg" alt="linkedin"></a>
+            <a href="#" class="social__link"><img src="img/mail-black.svg" alt="mail"></a>
+        </span>
+        </div>
+    </div>
+    <div class="team-block">
+        <div class="team__image">
+            <img src="img/team/03.png" alt="Founder & CEO" class="image">
+        </div>
+        <div class="team__status">
+            <span class="name">Nadya Bondarenko</span>
+            <span class="status">Marketing Manager</span>
+            <span class="social">
+            <a href="#" class="social__link"><img src="img/linkedin-black.svg" alt="linkedin"></a>
+            <a href="#" class="social__link"><img src="img/mail-black.svg" alt="mail"></a>
+        </span>
+        </div>
+    </div>
+    <div class="team-block">
+        <div class="team__image">
+            <img src="img/team/04.png" alt="Founder & CEO" class="image">
+        </div>
+        <div class="team__status">
+            <span class="name">Nataly Chechelyuk</span>
+            <span class="status">Project Manager</span>
+            <span class="social">
+            <a href="#" class="social__link"><img src="img/linkedin-black.svg" alt="linkedin"></a>
+            <a href="#" class="social__link"><img src="img/mail-black.svg" alt="mail"></a>
+        </span>
+        </div>
+    </div>
+    <div class="team-block">
+        <div class="team__image">
+            <img src="img/team/05.png" alt="Founder & CEO" class="image">
+        </div>
+        <div class="team__status">
+            <span class="name">Marina Chulkova</span>
+            <span class="status">UI/UX Designer</span>
+            <span class="social">
+            <a href="#" class="social__link"><img src="img/linkedin-black.svg" alt="linkedin"></a>
+            <a href="#" class="social__link"><img src="img/mail-black.svg" alt="mail"></a>
+        </span>
+        </div>
+    </div>
+    <div class="team-block">
+        <div class="team__image">
+            <img src="img/team/06.png" alt="Founder & CEO" class="image">
+        </div>
+        <div class="team__status">
+            <span class="name">Vlad Prybylov</span>
+            <span class="status">Back - end developer</span>
+            <span class="social">
+            <a href="#" class="social__link"><img src="img/linkedin-black.svg" alt="linkedin"></a>
+            <a href="#" class="social__link"><img src="img/mail-black.svg" alt="mail"></a>
+        </span>
+        </div>
+    </div>
+    <div class="team-block">
+        <div class="team__image">
+            <img src="img/team/07.png" alt="Founder & CEO" class="image">
+        </div>
+        <div class="team__status">
+            <span class="name">Maxim Snigur</span>
+            <span class="status">Back - end developer</span>
+            <span class="social">
+                <a href="#" class="social__link"><img src="img/linkedin-black.svg" alt="linkedin"></a>
+                <a href="#" class="social__link"><img src="img/mail-black.svg" alt="mail"></a>
+            </span>
+        </div>
+    </div>
+    <div class="team-block">
+        <div class="team__image">
+            <img src="img/team/08.png" alt="Founder & CEO" class="image">
+        </div>
+        <div class="team__status">
+            <span class="name">Vladimir Alexandrov</span>
+            <span class="status">Front - end developer</span>
+            <span class="social">
+            <a href="#" class="social__link"><img src="img/linkedin-black.svg" alt="linkedin"></a>
+            <a href="#" class="social__link"><img src="img/mail-black.svg" alt="mail"></a>
+        </span>
+        </div>
+    </div>
+</div>
+<div class="full-pattern"></div>
+<div class="team team-vacancies">
+    <div class="team__clients">Join Our team</div>
+
+    <div class="accordeon-widget vacancies">
+        <div class="accordeon">
+            <div class="accordeon__title title-active">
+                <span class="title__image title__image-active"></span>
+                JavaScript Developer (Angular, React, VueJs)
+            </div>
+            <div class="accordeon__content content-active">
+                <div class="half">
+                    <span class="label">What you definitely need to have:</span>
+                    <p class="description">Experience in JavaScript development for 2+ years.</p>
+                    <span class="label">Knowledge and experience in:</span>
+                    <p class="description">
+                        —  Javascript ES5-6. <br>
+                        —  Angular 2+, React, VueJs framework. <br>
+                        —  Experience of working with Webpack, gulp. <br>
+                        —  Experience of working with third-party services and APIs
+                        (Google APIs, Social Networks, Payment Systems (PayPal, Stripe, etc.), Amazon Web Services).
+                        —  Understanding of the OOP, asynchrony, prototypal inheritance.
+                    </p>
+                </div>
+                <div class="half">
+                    <span class="label">Respect and glory if</span>
+                    <p class="description">
+                        —  Experience in SASS / LESS / POSTCSS. <br>
+                        —  Experience in CSS methodologies (BEM, SMACSS, OOCSS).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordeon">
+            <div class="accordeon__title">
+                <span class="title__image"></span>
+                PHP Developer
+            </div>
+            <div class="accordeon__content">
+                <div class="half">
+                    <span class="label">What you definitely need to have:</span>
+                    <p class="description">Experience in PHP for 5+ years.</p>
+                    <span class="label">Knowledge and experience in:</span>
+                    <p class="description">
+                        — knowledge of English (at the level of reading documentation); <br>
+                        — experience with PHP 5+; <br>
+                        — experience with MySQL, experience in designing and supporting databases; <br>
+                        — knowledge of the principles of OOP, MVC; <br>
+                        — knowledge of 1-2 PHP-framework. <br>
+                        — responsibility, initiative, orientation to the result.
+                    </p>
+                </div>
+                <div class="half">
+                    <span class="label">Respect and glory if</span>
+                    <p class="description">
+                    — Knowledge of HTML5 / CSS3 / JS / jQuery. <br>
+                    — Experience of development on Wordpress from 1 year. <br>
+                    — Experience of layout templates under Wordpress. <br>
+                    — Experience of developing plug-ins for Wordpress.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordeon">
+            <div class="accordeon__title">
+                <span class="title__image"></span>
+                QA Beginner
+            </div>
+            <div class="accordeon__content">
+                <div class="half">
+                    <span class="label">What you definitely need to have:</span>
+                    <p class="description">Experience in QA for 2+ years.</p>
+                    <span class="label">Knowledge and experience in:</span>
+                    <p class="description">
+                        —  Testing. <br>
+                    </p>
+                </div>
+                <div class="half">
+                    <span class="label">Respect and glory if</span>
+                    <p class="description">
+                        — Knowledge of HTML5 / CSS3 / Wordpress. <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="team team-send-resume">
+    <div class="team-send-resume-block">
+        <span class="label">
+            We are always looking for talent.
+        </span>
+    </div>
+</div>
+<footer class="about-footer cases-footer">
+    <a href="mailto:info@urich.org" class="mail__link">info@urich.org</a>
+    <span>© 2015-2018 All rights reserved</span>
+    <div class="cases-footer_social">
+        <a class="social__links" href="#">
+            <img src="img/linkedin.png" alt="linkedin">
+        </a>
+        <a class="social__links" href="#">
+            <img src="img/facebook.png" alt="facebook">
+        </a>
+        <a class="social__links" href="#">
+            <img src="img/upwork.png" alt="upwork">
+        </a>
+    </div>
+</footer>
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jquery.vmap.js"></script>
+<script src="js/jquery.vmap.world.js"></script>
+<script src="js/jquery.vmap.sampledata.js"></script>
+<script>
+    jQuery('#vmap').vectorMap({
+        map: 'world_en',
+        backgroundColor: null,
+        color: '#ffffff',
+        hoverOpacity: 0.7,
+        selectedColor: '#799071',
+        enableZoom: true,
+        showTooltip: true,
+        values: sample_data,
+        scaleColors: ['#d5e8ca', '#92ae8b'],
+        normalizeFunction: 'polynomial'
+    });
+</script>
+<script src="js/counter.js"></script>
+<script src="js/accordeon.js"></script>
+</body>
+</html>

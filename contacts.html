@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>URich Development. Contact us</title>
+
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta property="og:image" content="img/favicon/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+</head>
+
+<body>
+<div class="mobile">
+    <a href="main.html" class="mobile-logo__link"><img src="img/logo.svg" alt="logo" class="mobile-logo__image"></a>
+    <span class="mobile-burger burger">
+        <span class="span burger-white"></span>
+        <!--<span class="span burger-white"></span>-->
+        <span class="span burger-white"></span>
+    </span>
+    <ul class="mobile-menu">
+        <li class="mobile-menu__item"><a href="about.html" class="mobile-menu__link">About</a></li>
+        <li class="mobile-menu__item"><a href="cases.html" class="mobile-menu__link">Cases</a></li>
+        <li class="mobile-menu__item"><a href="services.html" class="mobile-menu__link">Services</a></li>
+        <li class="mobile-menu__item"><a href="blog.html" class="mobile-menu__link">Blog</a></li>
+        <li class="mobile-menu__item"><a href="contacts.html" class="mobile-menu__link">Contacts</a></li>
+    </ul>
+</div>
+<nav class="navbar navbar_top navbar_white">
+    <div class="navbar__logo logo">
+        <a href="main.html"><img src="img/logo-black.svg" alt="logo" class="logo__image"></a>
+    </div>
+    <div class="navbar__menu">
+        <ul class="main-menu">
+            <li class="main-menu__item"><a href="about.html" class="main-menu__link">About</a></li>
+            <li class="main-menu__item"><a href="cases.html" class="main-menu__link">Cases</a></li>
+            <li class="main-menu__item"><a href="services.html" class="main-menu__link">Services</a></li>
+            <li class="main-menu__item"><a href="blog.html" class="main-menu__link">Blog</a></li>
+            <li class="main-menu__item"><a href="contacts.html" class="main-menu__link">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<section class="contacts-page footer">
+    <div id="map"></div>
+    <div class="contacts-page-block">
+        <div class="half">
+            <div class="contacts-page_text footer_text">
+                We know how budget planning is essential for our client. We estimate projects for free and will always do. Send us some information about your project and we’ll contact you as soon as possible.
+            </div>
+            <div class="contacts-page_wave footer_wave"><img src="img/wave.png" alt="wave"></div>
+            <div class="contacts-page_address footer_address">
+                <div class="address">
+                    <ul class="address-menu">
+                        <li class="address-menu__item">Address</li>
+                        <li class="address-menu__item"><a href="" class="address-menu__link">Ukraine, Zaporizhia</a></li>
+                        <li class="address-menu__item"><a href="" class="address-menu__link">Recordnaya St. 14</a></li>
+                        <li class="address-menu__item"><a href="" class="address-menu__link">69032</a></li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <ul class="contacts-menu">
+                        <li class="contacts-menu__item">Contacts</li>
+                        <li class="contacts-menu__item"><a href="#" class="contacts-menu__link">+38 (095) 775 36 38</a></li>
+                        <li class="contacts-menu__item"><a href="mailto:info@urich.org" class="contacts-menu__link">info@urich.org</a></li>
+                    </ul>
+                </div>
+                <div class="followus">
+                    <ul class="followus-menu">
+                        <li class="followus-menu__item">Follow us</li>
+                        <li class="followus-menu__item">
+                            <a href="#" class="followus-menu__link"><img src="img/upwork.png" alt="upwork"></a>
+                            <a href="#" class="followus-menu__link"><img src="img/linkedin.png" alt="linkedin"></a>
+                            <a href="#" class="followus-menu__link"><img src="img/facebook.png" alt="facebook"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="half">
+            <div class="footer_form">
+                <form action="" class="footer-form">
+                    <div class="form__row">
+                        <div class="form__title">
+                            Estimate your project for free
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <input type="text" placeholder="Name" class="name">
+                    </div>
+                    <div class="form__row">
+                        <input type="email" placeholder="E-mail" class="email">
+                    </div>
+                    <div class="form__row">
+                        <input type="text" placeholder="Phone" class="phone">
+                    </div>
+                    <div class="form__row">
+                        <textarea class="textarea-elem" name="" id="" placeholder="Project description"></textarea>
+                    </div>
+                    <div class="form__row">
+                        <a href="#" class="form__button">
+                            Get free estimation
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+
+<script>
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: new google.maps.LatLng(47.847631, 35.132973),
+            mapTypeId: 'roadmap'
+        });
+
+        var iconBase = '../img/';
+        var icons = {
+            info: {
+                icon: iconBase + 'mark.png'
+            }
+        };
+
+        var features = [
+            {
+                position: new google.maps.LatLng(47.847631, 35.132973),
+                type: 'info'
+            }
+        ];
+
+        // Create markers.
+        features.forEach(function(feature) {
+            var marker = new google.maps.Marker({
+                position: feature.position,
+                icon: icons[feature.type].icon,
+                map: map
+            });
+        });
+    }
+</script>
+<script src="js/mobile-menu.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key&callback=initMap"
+        async defer></script>
+</body>
+</html>
