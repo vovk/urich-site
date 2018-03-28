@@ -7,10 +7,10 @@
     let count2 = 0;
     let count3 = 0;
     function CounterWidget() {
-        count1++;
-        if (count1 < 181) {
-            counter_place1.innerHTML = count1;
-        }
+        // count1++;
+        // if (count1 < 181) {
+        //     counter_place1.innerHTML = count1;
+        // }
 
         count2++;
         if (count2 < 25) {
